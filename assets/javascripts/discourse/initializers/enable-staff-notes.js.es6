@@ -63,11 +63,7 @@ export default {
         click: widgetShowStaffNotes,
 
         html() {
-          if (siteSettings.enable_emoji) {
-            return this.attach('emoji', { name: 'pencil' });
-          } else {
-            return iconNode('sticky-note');
-          }
+          return iconNode('black-tie');
         }
       });
     });
