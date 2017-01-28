@@ -1,6 +1,6 @@
 # name: staff-notes
 # about: Gives the ability for staff members to attach notes to users
-# version: 0.0.2
+# version: 0.0.3
 # authors: Robin Ward
 
 enabled_site_setting :staff_notes_enabled
